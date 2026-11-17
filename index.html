@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orbe — Silicona premium</title>
+  <meta name="description" content="Orbe. Silicona suave, diseño minimalista, envío discreto.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <!-- NAVEGACIÓN -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#inicio" class="nav__logo">Orbe</a>
+      <nav class="nav__links">
+        <a href="#diseno">Diseño</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#specs">Detalles</a>
+        <a href="#comparar">Comparar</a>
+      </nav>
+      <a href="#comprar" class="btn btn--small">Comprar</a>
+    </div>
+  </header>
+ 
+  <main>
+ 
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <p class="eyebrow reveal">Nuevo</p>
+      <h1 class="reveal">Orbe.</h1>
+      <p class="hero__sub reveal">Silicona suave. Diseño esencial.</p>
+      <div class="hero__cta reveal">
+        <a href="#comprar" class="btn">Comprar</a>
+        <a href="#diseno" class="link">Descubrir más ›</a>
+      </div>
+      <img class="hero__img reveal" src="cojones1.png" alt="Orbe, vista frontal">
+    </section>
+ 
+    <!-- DISEÑO -->
+    <section class="section section--gray" id="diseno">
+      <div class="container center">
+        <h2 class="reveal">Formas que se sienten bien.</h2>
+        <p class="lead reveal">Curvas suaves y un acabado mate aterciopelado. Cada detalle está pensado para ser cómodo, discreto y agradable al tacto.</p>
+      </div>
+    </section>
+ 
+    <!-- CARACTERÍSTICAS -->
+    <section class="section" id="caracteristicas">
+      <div class="container">
+        <div class="grid">
+          <article class="card reveal">
+            <h3>Silicona premium</h3>
+            <p>Material suave, flexible y seguro para la piel.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Fácil de limpiar</h3>
+            <p>Superficie no porosa. Agua y jabón neutro, y listo.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Envío discreto</h3>
+            <p>Embalaje neutro, sin marcas ni logos exteriores.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- ESPECIFICACIONES -->
+    <section class="section section--gray" id="specs">
+      <div class="container container--narrow">
+        <h2 class="center reveal">Detalles.</h2>
+        <dl class="specs reveal">
+          <div><dt>Material</dt><dd>Silicona de grado médico</dd></div>
+          <div><dt>Color</dt><dd>Azul medianoche</dd></div>
+          <div><dt>Acabado</dt><dd>Mate, tacto suave</dd></div>
+          <div><dt>Altura</dt><dd>5,5 cm</dd></div>
+          <div><dt>Cuidado</dt><dd>Agua y jabón neutro</dd></div>
+        </dl>
+      </div>
+    </section>
+ 
+    <!-- COMPARATIVA -->
+    <section class="section" id="comparar">
+      <div class="container">
+        <h2 class="center reveal">Compáralo.</h2>
+        <p class="lead center reveal">Cada generación mejora a la anterior. Elige la que mejor se adapta a ti.</p>
+ 
+        <div class="table-wrap reveal">
+          <table class="compare">
+            <thead>
+              <tr>
+                <th></th>
+                <th class="is-new">
+                  <img src="cojones1.png" alt="Orbe 3">
+                  <span class="gen">Orbe 3</span>
+                  <span class="gen-sub">Nuevo · 29,90 €</span>
+                </th>
+                <th>
+                  <img src="cojones1.png" alt="Orbe 2">
+                  <span class="gen">Orbe 2</span>
+                  <span class="gen-sub">2024 · 24,90 €</span>
+                </th>
+                <th>
+                  <img src="cojones1.png" alt="Orbe 1">
+                  <span class="gen">Orbe 1</span>
+                  <span class="gen-sub">2022 · 19,90 €</span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Material</td><td class="is-new">Silicona de grado médico</td><td>Silicona de grado médico</td><td>Silicona estándar</td></tr>
+              <tr><td>Acabado</td><td class="is-new">Mate aterciopelado</td><td>Mate</td><td>Brillante</td></tr>
+              <tr><td>Flexibilidad</td><td class="is-new">Extra suave</td><td>Suave</td><td>Media</td></tr>
+              <tr><td>Colores</td><td class="is-new">4</td><td>3</td><td>2</td></tr>
+              <tr><td>Altura</td><td class="is-new">5,5 cm</td><td>5,5 cm</td><td>6 cm</td></tr>
+              <tr><td>Estuche de viaje</td><td class="is-new yes">✓</td><td class="yes">✓</td><td class="no">—</td></tr>
+              <tr><td>Fácil de limpiar</td><td class="is-new yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>Garantía</td><td class="is-new">2 años</td><td>1 año</td><td>1 año</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- COMPRAR -->
+    <section class="section buy" id="comprar">
+      <div class="container center">
+        <img class="buy__img reveal" src="cojones1.png" alt="Orbe">
+        <h2 class="reveal">Orbe</h2>
+        <p class="price reveal"><span id="price">29,90</span> €</p>
+ 
+        <div class="qty reveal">
+          <button type="button" id="minus" aria-label="Quitar una unidad">−</button>
+          <span id="qty">1</span>
+          <button type="button" id="plus" aria-label="Añadir una unidad">+</button>
+        </div>
+ 
+        <button type="button" class="btn btn--big reveal" id="addToCart">Añadir a la bolsa</button>
+        <p class="note reveal">Envío gratis desde 40 €. Devolución en 30 días.</p>
+      </div>
+    </section>
+ 
+  </main>
+ 
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Orbe. Todos los derechos reservados. Solo para mayores de 18 años.</p>
+    </div>
+  </footer>
+ 
+  <!-- AVISO -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
+ 
