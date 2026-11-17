@@ -66,7 +66,7 @@ a { color: inherit; text-decoration: none; }
   text-align: center;
   padding: 120px 24px 60px;
 }
-.eyebrow { color: #bf4800; font-weight: 600; font-size: 1.1rem; }
+.eyebrow { color: #bf4800; font-weight: 600; font-size: 1.1rem; margin-bottom: 10px;}
 .hero h1 {
   font-size: clamp(3.5rem, 11vw, 7rem);
   font-weight: 700; letter-spacing: -0.04em; line-height: 1.05;
@@ -90,7 +90,7 @@ a { color: inherit; text-decoration: none; }
   font-size: clamp(1.1rem, 2vw, 1.4rem); color: var(--text-soft);
 }
 #comprar{
-  padding-top: 0px;
+  padding-top: 10px;
 }
  
 /* ===== TARJETAS ===== */
@@ -114,7 +114,7 @@ a { color: inherit; text-decoration: none; }
 .compare th, .compare td { padding: 16px 12px; border-bottom: 1px solid #d2d2d7; }
 .compare thead th { border-bottom: 0; vertical-align: bottom; padding-bottom: 24px; }
 .compare thead img { height: 90px; width: auto; margin: 0 auto 12px; object-fit: contain; }
-.compare thead th:not(.is-new) img { opacity: 0.7; filter: saturate(0.6); }
+/*.compare thead th:not(.is-new) img { opacity: 0.7; filter: saturate(0.6); }*/
 .compare .gen { display: block; font-size: 1.15rem; font-weight: 600; }
 .compare .gen-sub { display: block; font-size: 0.85rem; color: var(--text-soft); font-weight: 400; }
 .compare td:first-child { text-align: left; color: var(--text-soft); }
@@ -161,5 +161,19 @@ a { color: inherit; text-decoration: none; }
   .nav__links { display: none; }
   .section { padding: 70px 0; }
   .hero { padding-top: 100px; }
+}
+/* ===== CÍRCULOS DE COLOR EN LA COMPARATIVA ===== */
+.compare .colors {
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+}
+.compare .color-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
  

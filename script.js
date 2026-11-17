@@ -1,5 +1,5 @@
 // ===== CONFIGURACIÓN (cambia aquí lo básico) =====
-const PRECIO = 29.90;   // precio por unidad
+const PRECIO = 236.24;   // precio por unidad
 const MAX_UNIDADES = 10;
 
 // ===== ELEMENTOS =====
